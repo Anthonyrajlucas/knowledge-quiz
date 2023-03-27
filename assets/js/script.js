@@ -86,7 +86,6 @@ function iterate(id) {
 	op3.value = Questions[id].a[2].isCorrect;
 	op4.value = Questions[id].a[3].isCorrect;
 
-}
 var selected = "";
 
 	// Show selection for op1
@@ -124,5 +123,21 @@ var selected = "";
 		op4.style.backgroundColor = "lightgoldenrodyellow";
 		selected = op4.value;
 	})
+// Grabbing the evaluate button
+const evaluate = document.getElementsByClassName("evaluate");
 
+// Evaluate method
+evaluate[0].addEventListener("click", () => {
+    if (selected == "true") {
+        result[0].innerHTML = "True";
+        result[0].style.color = "green";
+    } else {
+        result[0].innerHTML = "False";
+        result[0].style.color = "red";
+    }
+})
+}
 
+if (start) {
+iterate("0");
+}
