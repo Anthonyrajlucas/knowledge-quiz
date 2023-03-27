@@ -85,3 +85,22 @@
 	color: white;
 	background-color: #FFFF00;
 }
+@media screen and (max-width: 600px)  {
+	.option
+	{
+		width: fit-content;
+        height: 15vh;
+        padding: 5px;
+       
+	}
+	
+}
+@media screen and (max-width: 900px)  {
+	.option
+	{
+        height: 15vh;
+        padding: 5px;
+		width: fit-content;
+       
+	}
+}
