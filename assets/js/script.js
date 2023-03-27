@@ -52,5 +52,12 @@ const Questions = [{
 
 ]
 
+// Set start
+var start = true;
+
+// Iterate
+function iterate(id) {
+}
+
 
 
