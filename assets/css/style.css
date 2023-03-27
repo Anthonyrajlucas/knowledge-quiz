@@ -54,7 +54,7 @@
 	justify-content: space-around;
 	background-color:#c7dddf;
 }
-.evaluate,.next
+.evaluate,.next,.previous
 {
 	width:30vw;
 	height: 8vh;
@@ -64,9 +64,15 @@
 .evaluate
 {
 	background-color: #50DBB4;
+	color: white;
 }
 .next
 {
 	color: white;
 	background-color: #BF3325;
+}
+.previous
+{
+	color: white;
+	background-color: #FFFF00;
 }
