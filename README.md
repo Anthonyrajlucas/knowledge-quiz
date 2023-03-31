@@ -3,8 +3,10 @@
 ## Existing Features
 - The Knowledge Quiz Heading
 ## Result Area
+![result-area-image](documentation/result-area.jpg)
 
 ## Question Area
+![question-area-image](documentation/question-area.jpg)
 
 ## Options Area
 
