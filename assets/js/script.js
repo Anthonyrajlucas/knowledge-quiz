@@ -54,13 +54,14 @@ const Questions = [{
 
 // Set start
 var start = true;
+var id = 0;
+
+// Getting the result display section
+const answer = document.getElementById("answer");
+
 
 // Iterate
 function iterate(id) {
-
-    // Getting the result display section
-	var result = document.getElementsByClassName("result");
-	result[0].innerText = "";
 
 	// Getting the question
 	const question = document.getElementById("question");
@@ -85,6 +86,14 @@ function iterate(id) {
 	op2.value = Questions[id].a[1].isCorrect;
 	op3.value = Questions[id].a[2].isCorrect;
 	op4.value = Questions[id].a[3].isCorrect;
+
+
+    op1.style.backgroundColor = "lightskyblue";
+	op2.style.backgroundColor = "lightskyblue";
+	op3.style.backgroundColor = "lightskyblue";
+	op4.style.backgroundColor = "lightskyblue";
+
+}
 
 var selected = "";
 
@@ -123,47 +132,42 @@ var selected = "";
 		op4.style.backgroundColor = "lightgoldenrodyellow";
 		selected = op4.value;
 	})
+
 // Grabbing the evaluate button
 const evaluate = document.getElementsByClassName("evaluate");
+const score = document.getElementById("score");
 
 // Evaluate method
 evaluate[0].addEventListener("click", () => {
+    if (id < 5) {
+        id++;
     if (selected == "true") {
-        result[0].innerHTML = "True";
-        result[0].style.color = "green";
+        answer.innerHTML = "your answer is correct";
+        answer.style.color = "green";
+        let numberScore = parseInt(score.innerHTML)
+        console.log('numberScore: ', numberScore)
+        numberScore ++;
+        score.innerHTML = numberScore;
     } else {
-        result[0].innerHTML = "False";
-        result[0].style.color = "red";
+        answer.innerHTML = "Sorry, your answer is wrong";
+        answer.style.color = "red";
     }
-})
-}
+    }
+    if (id < 5)
+    {    
+        iterate(id);
+    }else if (id = 4)
+    {
+        showPopup()   
+    }
+
+} )
 
 if (start) {
 iterate("0");
+answer.innerText = "";
 }
 
-//Next button and method 
-const next = document.getElementsByClassName('next')[0];
-var id = 0;
-
-next.addEventListener("click", () => {
-    start = false;
-    if (id < 4) {
-        id++;
-        iterate(id);
-        console.log(id);
-    }
-})
-
-// previous button and method 
-const previous = document.getElementsByClassName('previous')[0];
-var id = 0;
-
-previous.addEventListener("click", () => {
-    start = false;
-    if (id > 0) {
-        id--;
-        iterate(id);
-        console.log(id);    
-    }
-})
+function showPopup() {
+    alert("Successfully completed! Your score is: " + score.innerHTML );
+  }

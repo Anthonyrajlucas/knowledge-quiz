@@ -16,19 +16,22 @@
 	padding: 5px;
 	width: 80vw;
 	height: 10vh;
-	background-color: #c7dddf;
+	background-color: #9eb1b3;
 	font-size: x-large;
 	text-align: center;
 	
 }
-.result
+.results
 {
 	margin: 10px;
 	padding: 5px;
-	width:80vw;
+	width: 80vw;
 	height: 10vh;
+	background-color: #fae;
+	font-size: small;
+	display: flex;
 	text-align: center;
-	font-size: 50px;	
+	justify-content: space-around;
 }
 .option-container
 {
@@ -61,7 +64,7 @@
 	padding: 5px;
 	display: flex;
 	justify-content: space-around;
-	background-color:#c7dddf;
+
 }
 .evaluate,.next,.previous
 {
