@@ -9,8 +9,10 @@
 ![question-area-image](documentation/question-area.jpg)
 
 ## Options Area
+![options-area-image](documentation/options-area.jpg)
 
 ## Evaluate Area
+![evaluation-area-image](documentation/evaluate-area.jpg)
 
 ## Testing
 
