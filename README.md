@@ -22,6 +22,10 @@
 
 ## Validator Testing 
 
+![html-validator](documentation/html-validator.jpg)
+
+![css-validator](documentation/css-validator%20.jpg)
+
 - HTML
      No errors were returned when passing through the official W3C validator
 - CSS
