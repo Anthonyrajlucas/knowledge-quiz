@@ -108,3 +108,20 @@
        
 	}
 }
+@media screen and (max-width: 500px)  {
+	.heading
+	{
+		padding: 20px 10px 30px 10px;
+	}
+ 
+	.results
+	{
+		padding: 3px 5px 5px 10px;
+		height: 20vh;
+	}
+	.option-container
+	{
+		font-size: small;
+
+	}
+}
