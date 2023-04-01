@@ -48,6 +48,17 @@ const Questions = [{
         { text: "Yangtze", isCorrect: false }
     ]
 
+},
+
+{
+    id: 5,
+    q: "Mountains and hills are a_________sight. I have always_________to see them?",
+    a: [{ text: "Extraordinary / Advocated", isCorrect: false },
+        { text: "stupendous / encouraged", isCorrect: false },
+        { text: "Loving / Prepared", isCorrect: false },
+        { text: "Fascinating / longed", isCorrect: true }
+    ]
+
 }
 
 ];
@@ -57,22 +68,22 @@ var start = true;
 var id = 0;
 
 // Getting the result display section
-const answer = document.getElementById("answer");
+var answer = document.getElementById("answer");
 
 
 // Iterate
 function iterate(id) {
 
 	// Getting the question
-	const question = document.getElementById("question");
+	var question = document.getElementById("question");
     // Setting the question text
 	question.innerText = Questions[id].q;
 
 	// Getting the options
-	const op1 = document.getElementById('op1');
-	const op2 = document.getElementById('op2');
-	const op3 = document.getElementById('op3');
-	const op4 = document.getElementById('op4');
+	var op1 = document.getElementById('op1');
+	var op2 = document.getElementById('op2');
+	var op3 = document.getElementById('op3');
+	var op4 = document.getElementById('op4');
 
 
 	// Providing option text
@@ -134,12 +145,12 @@ var selected = "";
 	});
 
 // Grabbing the evaluate button
-const evaluate = document.getElementsByClassName("evaluate");
-const score = document.getElementById("score");
+var evaluate = document.getElementsByClassName("evaluate");
+var score = document.getElementById("score");
 
 // Evaluate method
 evaluate[0].addEventListener("click", () => {
-    if (id < 5) {
+    if (id < 6) {
         id++;
     if (selected == "true") {
         answer.innerHTML = "your answer is correct";
@@ -153,12 +164,14 @@ evaluate[0].addEventListener("click", () => {
         answer.style.color = "red";
     }
     }
-    if (id < 5)
+    if (id < 6)
     {    
         iterate(id);
     }else if (id = 4)
     {
         showPopup();
+        evaluate[0].disabled = true;
+        
     }
 
 } );

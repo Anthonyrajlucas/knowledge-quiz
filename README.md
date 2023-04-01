@@ -14,8 +14,6 @@ True or False Questions - These questions require the participant to determine i
 
 Fill in the Blank Questions - These questions provide a sentence or statement with one or more blanks, and the participant has to fill in the missing word or phrase.
 
-Matching Questions - These questions provide a list of terms and a list of definitions, and the participant must match the correct term with its corresponding definition.
-
 Score Tracking - The participant's score is typically displayed at the end of the quiz to provide feedback on their performance.
 
 Answer Tracking - Once the participant clicks the evaluate button, he can see if the answer is correct or incorrect on the display, so he can see what he needs to do.
