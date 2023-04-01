@@ -3,6 +3,8 @@
 
 A knowledge quiz is a type of quiz that tests someone's knowledge on a particular subject or a wide range of topics. These quizzes can be conducted in various settings, including classrooms, online platforms, and even in casual settings among friends or family members. The questions can cover a variety of topics such as history, science, geography, literature, pop culture, and more. The goal of a knowledge quiz is to assess how much a person knows about a particular subject or a range of topics and to provide them with score and feedback on their level of knowledge.
 
+![responsive-image](documentation/responsive-image.jpg)
+
 ## Existing Features
 - The Knowledge Quiz Heading
 
