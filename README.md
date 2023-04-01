@@ -67,6 +67,22 @@ For example, after answering a quiz question, the quiz-taker may be directed to 
 
 The evaluate area may be located below the options area or on a separate page, depending on the quiz format or platform. It is important for the evaluate area to be clear and informative, helping the quiz-taker to learn and improve their knowledge based on the feedback they receive.
 
+## Resources
+
+-	[CodeInstitute](https://codeinstitute.net/de/) – Course material
+
+-	[CodeInstitute](https://codeinstitute.net/de/) – Slack community
+
+-	[W3Schools](https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fwww.w3schools.com%2F) - helped me in researching and fixing errors along the way
+
+-	[AmIResponsive](https://ui.dev/amiresponsive) – Check the sites responsiveness
+
+-	[W3CValidate](https://validator.w3.org/) - HTML code
+
+-	[W3CCSS](https://jigsaw.w3.org/css-validator/) - CSS Validation
+
+-    [JSHint](https://jshint.com/) - JsHint a javascript code quality tool
+
 ## Testing
 
 - I tested this page working different browsers: Chrome, Firefox, and Safari.
