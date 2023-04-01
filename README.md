@@ -89,7 +89,29 @@ The evaluate area may be located below the options area or on a separate page, d
 - ACCESSIBILITY 
      I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
 
-## Bugs
+## Bugs Fixed
+
+A bug was found in the evaluate button after reaching the sixth question, the user can change the option and re-evaluate the score so I had to disable the evaluate button after reaching the sixth question
+
+Title: Evaluate button remains disabled after closing iteration popup on question 6
+
+Description: When answering questions in the quiz, after reaching question number 6, a popup iteration is shown. When the user closes the iteration popup, the Evaluate button remains disabled and cannot be clicked to submit the answer. This behavior is unexpected as the Evaluate button should become enabled after the iteration popup is closed.
+
+Steps to reproduce:
+
+- Navigate to the quiz.
+- Begin answering questions until reaching question 6.
+- Observe that a popup iteration is shown.
+- Close the iteration popup.
+- Observe that the Evaluate button remains disabled.
+
+Expected result: The Evaluate button becomes enabled after closing the iteration popup on question 6.
+
+Actual result: The Evaluate button remains disabled after closing the iteration popup on question 6.
+
+Severity: Medium - this issue prevents users from submitting their answers and completing the quiz, but it does not affect the functionality of the quiz for earlier questions.
+
+Priority: High - this issue affects a critical part of the quiz and should be fixed as soon as possible to avoid user frustration and potential loss of data.
 
 
 ## Version Control
