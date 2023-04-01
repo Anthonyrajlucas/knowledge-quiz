@@ -50,7 +50,7 @@ const Questions = [{
 
 }
 
-]
+];
 
 // Set start
 var start = true;
@@ -104,7 +104,7 @@ var selected = "";
 		op3.style.backgroundColor = "lightskyblue";
 		op4.style.backgroundColor = "lightskyblue";
 		selected = op1.value;
-	})
+	});
 
 	// Show selection for op2
 	op2.addEventListener("click", () => {
@@ -113,7 +113,7 @@ var selected = "";
 		op3.style.backgroundColor = "lightskyblue";
 		op4.style.backgroundColor = "lightskyblue";
 		selected = op2.value;
-	})
+	});
 
 	// Show selection for op3
 	op3.addEventListener("click", () => {
@@ -122,7 +122,7 @@ var selected = "";
 		op3.style.backgroundColor = "lightgoldenrodyellow";
 		op4.style.backgroundColor = "lightskyblue";
 		selected = op3.value;
-	})
+	});
 
 	// Show selection for op4
 	op4.addEventListener("click", () => {
@@ -131,7 +131,7 @@ var selected = "";
 		op3.style.backgroundColor = "lightskyblue";
 		op4.style.backgroundColor = "lightgoldenrodyellow";
 		selected = op4.value;
-	})
+	});
 
 // Grabbing the evaluate button
 const evaluate = document.getElementsByClassName("evaluate");
@@ -144,8 +144,8 @@ evaluate[0].addEventListener("click", () => {
     if (selected == "true") {
         answer.innerHTML = "your answer is correct";
         answer.style.color = "green";
-        let numberScore = parseInt(score.innerHTML)
-        console.log('numberScore: ', numberScore)
+        let numberScore = parseInt(score.innerHTML);
+        console.log('numberScore: ', numberScore);
         numberScore ++;
         score.innerHTML = numberScore;
     } else {
@@ -158,10 +158,10 @@ evaluate[0].addEventListener("click", () => {
         iterate(id);
     }else if (id = 4)
     {
-        showPopup()   
+        showPopup();
     }
 
-} )
+} );
 
 if (start) {
 iterate("0");
