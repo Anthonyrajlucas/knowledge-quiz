@@ -89,6 +89,8 @@ The evaluate area may be located below the options area or on a separate page, d
 - ACCESSIBILITY 
      I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
 
+     ![lighthouse-image](documentation/lighthouse.jpg)
+
 ## Bugs Fixed
 
 A bug was found in the evaluate button after reaching the sixth question, the user can change the option and re-evaluate the score so I had to disable the evaluate button after reaching the sixth question
