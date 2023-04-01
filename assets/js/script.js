@@ -1,5 +1,5 @@
 // Questions will be asked
-const Questions = [{
+var Questions = [{
     id: 0,
     q: "Which is the fastest bird in the world?",
     a: [{ text: "Bald Eagle", isCorrect: false },
@@ -109,7 +109,7 @@ function iterate(id) {
 var selected = "";
 
 	// Show selection for op1
-	op1.addEventListener("click", () => {
+	op1.addEventListener("click", function () {
 		op1.style.backgroundColor = "lightgoldenrodyellow";
 		op2.style.backgroundColor = "lightskyblue";
 		op3.style.backgroundColor = "lightskyblue";
@@ -118,7 +118,7 @@ var selected = "";
 	});
 
 	// Show selection for op2
-	op2.addEventListener("click", () => {
+	op2.addEventListener("click", function () {
 		op1.style.backgroundColor = "lightskyblue";
 		op2.style.backgroundColor = "lightgoldenrodyellow";
 		op3.style.backgroundColor = "lightskyblue";
@@ -127,7 +127,7 @@ var selected = "";
 	});
 
 	// Show selection for op3
-	op3.addEventListener("click", () => {
+	op3.addEventListener("click", function () {
 		op1.style.backgroundColor = "lightskyblue";
 		op2.style.backgroundColor = "lightskyblue";
 		op3.style.backgroundColor = "lightgoldenrodyellow";
@@ -136,7 +136,7 @@ var selected = "";
 	});
 
 	// Show selection for op4
-	op4.addEventListener("click", () => {
+	op4.addEventListener("click", function () {
 		op1.style.backgroundColor = "lightskyblue";
 		op2.style.backgroundColor = "lightskyblue";
 		op3.style.backgroundColor = "lightskyblue";
@@ -149,7 +149,7 @@ var evaluate = document.getElementsByClassName("evaluate");
 var score = document.getElementById("score");
 
 // Evaluate method
-evaluate[0].addEventListener("click", () => {
+evaluate[0].addEventListener("click", function (){
     if (id < 6) {
         id++;
     if (selected == "true") {
@@ -167,7 +167,7 @@ evaluate[0].addEventListener("click", () => {
     if (id < 6)
     {    
         iterate(id);
-    }else if (id = 4)
+    }else if (id == 6)
     {
         showPopup();
         evaluate[0].disabled = true;
