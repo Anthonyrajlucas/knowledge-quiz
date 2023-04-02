@@ -169,8 +169,7 @@ evaluate[0].addEventListener("click", function (){
         iterate(id);
     }else if (id == 6)
     {
-        showPopup();
-        evaluate[0].disabled = true;
+        finishGame();
         
     }
 
@@ -181,6 +180,14 @@ iterate("0");
 answer.innerText = "";
 }
 
-function showPopup() {
-    alert("Successfully completed! Your score is: " + score.innerHTML );
-  }
+function finishGame() {
+    const finishText = document.querySelector('#question');
+    const optionCont = document.querySelector('.option-container');
+    const navi = document.querySelector('.navigation');
+    const play = document.querySelector('#play');
+    finishText.innerHTML = "Successfully completed! Your score is: " + score
+      .innerHTML;
+    optionCont.style.visibility = 'hidden';
+    navi.style.visibility = 'hidden';
+    play.style.visibility = 'visible';
+    }
