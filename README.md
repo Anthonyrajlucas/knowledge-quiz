@@ -3,7 +3,7 @@
 
 A knowledge quiz is a type of quiz that tests someone's knowledge on a particular subject or a wide range of topics. These quizzes can be conducted in various settings, including classrooms, online platforms, and even in casual settings among friends or family members. The questions can cover a variety of topics such as history, science, geography, literature, pop culture, and more. The goal of a knowledge quiz is to assess how much a person knows about a particular subject or a range of topics and to provide them with score and feedback on their level of knowledge.
 
-![responsive-image](documentation/responsive-image.jpg)
+![responsive-image](documentation/responsive.jpg)
 
 ## Existing Features
 - The Knowledge Quiz Heading
@@ -11,8 +11,6 @@ A knowledge quiz is a type of quiz that tests someone's knowledge on a particula
 The existing features of a knowledge quiz may vary depending on the platform or application used to conduct the quiz. However, some common features of a knowledge quiz include:
 
 Multiple Choice Questions - These questions provide a list of possible answers to choose from, with only one being the correct answer.
-
-True or False Questions - These questions require the participant to determine if the statement presented is true or false.
 
 Fill in the Blank Questions - These questions provide a sentence or statement with one or more blanks, and the participant has to fill in the missing word or phrase.
 
@@ -111,7 +109,7 @@ The evaluate area may be located below the options area or on a separate page, d
 
 ## Bugs Fixed
 
-A bug was found in the evaluate button after reaching the sixth question, the user can change the option and re-evaluate the score so I had to disable the evaluate button after reaching the sixth question
+A bug was found in the evaluate button after reaching the sixth question, the user can change the option and re-evaluate the score so I had to disable the evaluate button after reaching the sixth question and The mentor suggested a function to finish the game, hide the options container, and display a button to play it again instead of the popup alert message For example, if your game ends when the player reaches a certain score, you could call this function from within the code that handles that event.
 
 Title: Evaluate button remains disabled after closing iteration popup on question 6
 
