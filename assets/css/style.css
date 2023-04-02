@@ -5,7 +5,7 @@
 }
 .quiz-area
 {
-	height: 50vh;
+	height: 60vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -67,15 +67,12 @@
 	font-size: larger;
 
 }
-.evaluate,.next,.previous
+.evaluate
 {
 	width:30vw;
 	height: 8vh;
-	padding: 5px;
+	padding: 10px;
 	font-size: larger;
-}
-.evaluate
-{
 	background-color: #0a3126;
 	color: white;
 }
@@ -88,6 +85,10 @@
 {
 	color: white;
 	background-color: #ff00ff;
+}
+#play 
+{
+  visibility: hidden;
 }
 @media screen and (max-width: 600px)  {
 	.option
