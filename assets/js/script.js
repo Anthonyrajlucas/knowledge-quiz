@@ -156,7 +156,6 @@ evaluate[0].addEventListener("click", function (){
         answer.innerHTML = "your answer is correct";
         answer.style.color = "green";
         var numberScore = parseInt(score.innerHTML);
-        console.log('numberScore: ', numberScore);
         numberScore ++;
         score.innerHTML = numberScore;
     } else {
