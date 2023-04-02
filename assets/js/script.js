@@ -52,11 +52,11 @@ var Questions = [{
 
 {
     id: 5,
-    q: "Mountains and hills are a__sight. I have always__to see them?",
-    a: [{ text: "Extraordinary / Advocated", isCorrect: false },
-        { text: "stupendous / encouraged", isCorrect: false },
-        { text: "Loving / Prepared", isCorrect: false },
-        { text: "Fascinating / longed", isCorrect: true }
+    q: " The ______ is the largest organ of the human body",
+    a: [{ text: "Heart", isCorrect: false },
+        { text: "Liver", isCorrect: true },
+        { text: "Lungs", isCorrect: false },
+        { text: "Kidney", isCorrect: false }
     ]
 
 }

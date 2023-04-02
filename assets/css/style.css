@@ -88,8 +88,9 @@
 }
 #play 
 {
-  visibility: hidden;
+    visibility: hidden;
 }
+    
 @media screen and (max-width: 600px)  {
 	.option
 	{
@@ -114,19 +115,28 @@
 	{
 		padding: 20px 10px 30px 10px;
 	}
- 
 	.results
 	{
 		padding: 3px 5px 5px 10px;
-		height: 20vh;
+		height: fit-content;
 	}
 	.option-container
 	{
 		font-size: small;
-
+		height: fit-content;
+		display: block;
 	}
     .question-container
 	{
 		font-size: small;
+	}
+	.evaluate
+	{
+		font-size: medium;
+		height: fit-content;
+	}
+	.quiz-area
+	{
+		height: 6%;
 	}
 }
