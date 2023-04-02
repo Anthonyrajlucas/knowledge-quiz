@@ -155,7 +155,7 @@ evaluate[0].addEventListener("click", function (){
     if (selected == "true") {
         answer.innerHTML = "your answer is correct";
         answer.style.color = "green";
-        let numberScore = parseInt(score.innerHTML);
+        var numberScore = parseInt(score.innerHTML);
         console.log('numberScore: ', numberScore);
         numberScore ++;
         score.innerHTML = numberScore;
