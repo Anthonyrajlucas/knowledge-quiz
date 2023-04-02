@@ -52,7 +52,7 @@ var Questions = [{
 
 {
     id: 5,
-    q: "Mountains and hills are a_________sight. I have always_________to see them?",
+    q: "Mountains and hills are a__sight. I have always__to see them?",
     a: [{ text: "Extraordinary / Advocated", isCorrect: false },
         { text: "stupendous / encouraged", isCorrect: false },
         { text: "Loving / Prepared", isCorrect: false },
