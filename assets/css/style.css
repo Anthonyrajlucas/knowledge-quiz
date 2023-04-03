@@ -1,9 +1,10 @@
-.heading
+.heading 
 {
-    text-align: center;
-    font-size: 2.5rem;
+	text-align: center;
+	font-size: 2.5rem;
 }
-.quiz-area
+
+.quiz-area 
 {
 	height: 60vh;
 	display: flex;
@@ -11,7 +12,8 @@
 	justify-content: center;
 	align-items: center;
 }
-.question-container{
+
+.question-container {
 	margin: 10px;
 	padding: 5px;
 	width: 80vw;
@@ -19,10 +21,10 @@
 	background-color: #9eb1b3;
 	font-size: x-large;
 	text-align: center;
-	
+
 }
-.results
-{
+
+.results {
 	margin: 10px;
 	padding: 5px;
 	width: 80vw;
@@ -33,18 +35,18 @@
 	text-align: center;
 	justify-content: space-around;
 }
-.option-container
-{
+
+.option-container {
 	display: flex;
 	justify-content: space-around;
 	margin: 10px;
 	padding: 5px;
 	width: 80vw;
 	height: 20vh;
-	background-color: #9eb1b3;	
+	background-color: #9eb1b3;
 }
-.option
-{
+
+.option {
 	padding: 20px;
 	width: 15vw;
 	height: 15vh;
@@ -52,12 +54,12 @@
 	background-color: lightskyblue;
 	border-radius: 20%;
 }
-.option:hover
-{
+
+.option:hover {
 	background-color: lightgoldenrodyellow;
 }
-.navigation
-{
+
+.navigation {
 	width: 80vw;
 	height: 10vh;
 	margin: 10px;
@@ -67,76 +69,75 @@
 	font-size: larger;
 
 }
-.evaluate
-{
-	width:30vw;
+
+.evaluate {
+	width: 30vw;
 	height: 8vh;
 	padding: 10px;
 	font-size: larger;
 	background-color: #0a3126;
 	color: white;
 }
-.next
-{
+
+.next {
 	color: white;
 	background-color: #00bfff;
 }
-.previous
-{
+
+.previous {
 	color: white;
 	background-color: #ff00ff;
 }
-#play 
-{
-    visibility: hidden;
+
+#play {
+	visibility: hidden;
 }
-    
-@media screen and (max-width: 600px)  {
-	.option
-	{
+
+@media screen and (max-width: 600px) {
+	.option {
 		width: fit-content;
-        height: 15vh;
-        padding: 5px;
-       
+		height: 15vh;
+		padding: 5px;
+
 	}
-	
+
 }
-@media screen and (max-width: 900px)  {
-	.option
-	{
-        height: 15vh;
-        padding: 5px;
+
+@media screen and (max-width: 900px) {
+	.option {
+		height: 15vh;
+		padding: 5px;
 		width: fit-content;
-       
+
 	}
 }
-@media screen and (max-width: 500px)  {
-	.heading
-	{
+
+@media screen and (max-width: 500px) {
+	.heading {
 		padding: 20px 10px 30px 10px;
 	}
-	.results
-	{
+
+	.results {
 		padding: 3px 5px 5px 10px;
 		height: fit-content;
 	}
-	.option-container
-	{
+
+	.option-container {
 		font-size: small;
 		height: fit-content;
 		display: block;
 	}
-    .question-container
-	{
+
+	.question-container {
 		font-size: small;
 	}
-	.evaluate
-	{
+
+	.evaluate {
 		font-size: medium;
 		height: fit-content;
 	}
-	.quiz-area
-	{
+
+	.quiz-area {
 		height: 6%;
 	}
 }
