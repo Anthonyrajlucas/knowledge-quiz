@@ -180,10 +180,10 @@ answer.innerText = "";
 }
 
 function finishGame() {
-    const finishText = document.querySelector('#question');
-    const optionCont = document.querySelector('.option-container');
-    const navi = document.querySelector('.navigation');
-    const play = document.querySelector('#play');
+    var finishText = document.querySelector('#question');
+    var optionCont = document.querySelector('.option-container');
+    var navi = document.querySelector('.navigation');
+    var play = document.querySelector('#play');
     finishText.innerHTML = "Successfully completed! Your score is: " + score
       .innerHTML;
     optionCont.style.visibility = 'hidden';

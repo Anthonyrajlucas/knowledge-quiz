@@ -97,10 +97,22 @@ The evaluate area may be located below the options area or on a separate page, d
 
 - HTML
      No errors were returned when passing through the official W3C validator
+
 - CSS
      No errors were found when passing through the official (Jigsaw) validator
+
 - JavaScript
      No errors were found when passing through the official Jshint validator
+
+     - The following metrics were returned:
+
+     - There are 7 functions in this file.
+
+     - Function with the largest signature take 1 arguments, while the median is 0.
+
+     - Largest function has 18 statements in it, while the median is 5.
+
+     - The most complex function has a cyclomatic complexity value of 5 while the median is 1.
 
 - ACCESSIBILITY 
      I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
