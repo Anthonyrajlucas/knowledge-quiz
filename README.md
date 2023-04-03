@@ -179,7 +179,7 @@ This is the process I followed having completing each significant section of cod
 
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-- The live link can be found here -  [Knowledge-Quiz](https://anthonyrajlucas.github.io/knowledge-quiz/)
+- The live link can be found here -  [Knowledge-Quiz]( https://anthonyrajlucas.github.io/knowledge-quiz/)
 
 ## Technologies used
 
